@@ -1,5 +1,4 @@
 import Post from "./Post";
-import Stories from "./Stories";
 
 export default
     function Posts() {
@@ -9,8 +8,8 @@ export default
     ]
 
     return (
-        <div class="posts">
-            {posts.map(item => <Post usuarioIMG={item.usuarioIMG} usuario={item.usuario} conteudoIMG={item.conteudoIMG} curtidasIMG={item.curtidasIMG} curtidasUSUARIO={item.curtidasUSUARIO} curtidasNUMERO={item.curtidasNUMERO} />)}
+        <div className="posts">
+            {posts.map((item, i) => <Post usuarioIMG={item.usuarioIMG} usuario={item.usuario} conteudoIMG={item.conteudoIMG} curtidasIMG={item.curtidasIMG} curtidasUSUARIO={item.curtidasUSUARIO} curtidasNUMERO={item.curtidasNUMERO} key={i} />)}
         </div>
     )
 }
