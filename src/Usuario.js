@@ -5,7 +5,7 @@ export default
             <img src="assets/img/catanacomics.svg" />
             <div class="texto">
                 <strong>catanacomics</strong>
-                <name>Catana <ion-icon name="pencil-outline"></ion-icon></name>
+                <p>Catana <ion-icon name="pencil-outline"></ion-icon></p>
             </div>
         </div>
     )

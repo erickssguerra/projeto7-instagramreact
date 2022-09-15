@@ -1,12 +1,12 @@
 export default
-    function Story() {
+    function Story(props) {
     return (
         <div class="story">
             <div class="imagem">
-                <img src="assets/img/9gag.svg" />
+                <img src={props.imagem} />
             </div>
             <div class="usuario">
-                9gag
+                {props.usuario}
             </div>
         </div>
     )

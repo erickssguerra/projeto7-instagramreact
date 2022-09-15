@@ -1,11 +1,11 @@
 export default
-    function Post() {
+    function Post(props) {
     return (
         <div class="post">
             <div class="topo">
                 <div class="usuario">
-                    <img src="assets/img/meowed.svg" />
-                    meowed
+                    <img src={props.usuarioIMG} />
+                    {props.usuario}
                 </div>
                 <div class="acoes">
                     <ion-icon name="ellipsis-horizontal"></ion-icon>
@@ -13,7 +13,7 @@ export default
             </div>
 
             <div class="conteudo">
-                <img src="assets/img/gato-telefone.svg" />
+                <img src={props.conteudoIMG} />
             </div>
 
             <div class="fundo">
@@ -29,9 +29,9 @@ export default
                 </div>
 
                 <div class="curtidas">
-                    <img src="assets/img/respondeai.svg" />
+                    <img src={props.curtidasIMG} />
                     <div class="texto">
-                        Curtido por <strong>respondeai</strong> e <strong>outras 101.523 pessoas</strong>
+                        Curtido por <strong>{props.curtidasUSUARIO}</strong> e <strong>outras {props.curtidasNUMERO} pessoas</strong>
                     </div>
                 </div>
             </div>

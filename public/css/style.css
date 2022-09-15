@@ -243,9 +243,13 @@ body {
   color: #8E8E8E;
 }
 
-.sidebar>.usuario .name {
+.sidebar>.usuario p {
   display: flex;
   flex-direction: row;
+}
+
+.sidebar>.usuario p>ion-icon {
+  cursor: pointer;
 }
 
 .sidebar>.usuario .texto strong {
