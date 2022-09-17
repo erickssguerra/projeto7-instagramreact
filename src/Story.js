@@ -1,5 +1,4 @@
-export default
-    function Story(props) {
+export default function Story(props) {
     return (
         <div className="story">
             <div className="imagem">

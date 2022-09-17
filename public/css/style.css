@@ -233,6 +233,7 @@ body {
   width: 56px;
   height: 56px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .sidebar>.usuario .texto {
@@ -250,6 +251,7 @@ body {
 
 .sidebar>.usuario p>ion-icon {
   cursor: pointer;
+  margin-left: 2px;
 }
 
 .sidebar>.usuario .texto strong {

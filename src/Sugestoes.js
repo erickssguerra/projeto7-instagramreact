@@ -1,7 +1,6 @@
 import Sugestao from "./Sugestao";
 
-export default
-    function Sugestoes() {
+export default function Sugestoes() {
 
     const sugestoes = [
         { imagem: "assets/img/bad.vibes.memes.svg", nome: "bad.vibes.memes" },

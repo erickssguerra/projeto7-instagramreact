@@ -1,5 +1,4 @@
-export default
-    function Sugestao(props) {
+export default function Sugestao(props) {
     return (
         <div className="sugestao">
             <div className="usuario">
